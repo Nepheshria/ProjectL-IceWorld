@@ -1,0 +1,13 @@
+[
+  {
+    "file": "game:recipes/cooking/porridge.json",
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "liceworld:grain-cavewheat",
+      "shapeElement": "bowl/grain/*"
+    },
+    "side": "Server"
+  }
+]
