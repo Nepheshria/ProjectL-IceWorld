@@ -8,6 +8,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -22,6 +25,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -36,6 +42,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -50,6 +59,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -64,6 +76,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -79,6 +94,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -94,6 +112,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -108,6 +129,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -122,6 +146,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -136,6 +163,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -150,6 +180,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -164,6 +197,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -178,6 +214,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -192,6 +231,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   },
@@ -206,6 +248,9 @@
     "dependsOn": [
       {
         "modid": "liceworld"
+      },
+      {
+        "modid": "foodshelves"
       }
     ]
   }
