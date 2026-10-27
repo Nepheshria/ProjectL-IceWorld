@@ -3,6 +3,8 @@
   "liceworld:item-seeds-cavewheat": "Cave wheat seeds",
   "liceworld:item-dough-cavewheat": "Cave wheat dough",
   "liceworld:item-grain-cavewheat": "Cave wheat grain",
+  "game:meal-ingredient-porridge-primary-grain": "Cave wheat",
+  "game:meal-ingredient-porridge-secondary-grain": "Cave wheat",
   "liceworld:item-flour-cavewheat": "Cave wheat flour",
   "liceworld:item-bread-cavewheat-partbaked": "Cave bread (part-baked)",
   "liceworld:item-bread-cavewheat-perfect": "Cave bread",

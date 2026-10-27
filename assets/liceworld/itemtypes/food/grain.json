@@ -78,7 +78,7 @@
     }
   ],
   "texture": {
-    "base": "block/food/grain/{type}-pile"
+    "base": "liceworld:block/food/grain/{type}-pile"
   },
   "shape": {
     "base": "game:item/resource/crushed/normal"
@@ -118,7 +118,7 @@
   "grindingProps": {
     "groundStack": {
       "type": "item",
-      "code": "flour-{type}"
+      "code": "liceworld:flour-{type}"
     }
   },
   "materialDensity": 600,
