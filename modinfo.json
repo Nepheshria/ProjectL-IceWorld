@@ -2,7 +2,9 @@
   "type": "content",
   "modid": "liceworld",
   "name": "ProjectL Ice World",
-  "authors": ["SleepyEyes"],
+  "authors": [
+    "SleepyEyes"
+  ],
   "description": "Items for Ice World Map",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
