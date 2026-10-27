@@ -1,0 +1,212 @@
+[
+  {
+    "file": "foodshelves:blocktypes/other/floursack.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/seed/-",
+    "side": "server",
+    "value": "liceworld:item/resource/seeds/{seed}",
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/seed0",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/seeds/{seed0}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/seed1",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/seeds/{seed1}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/seed2",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/seeds/{seed2}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/seed3",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/seeds/{seed3}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/jar.json",
+    "op": "addmerge",
+    "path": "/attributes/worldInteractionAttributeCheck",
+    "side": "server",
+    "value": [
+      "fsLiquidyStuff",
+      "liceworld:grain-*"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/jarlarge.json",
+    "op": "addmerge",
+    "path": "/attributes/worldInteractionAttributeCheck",
+    "side": "server",
+    "value": [
+      "fsLiquidyStuff",
+      "liceworld:grain-*"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/jar.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/grain0",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/grains/{grain0}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/jar.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/grain1",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/grains/{grain1}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/jar.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/grain2",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/grains/{grain2}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/jar.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/grain3",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/grains/{grain3}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/jarlarge.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/grain0",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/grains/{grain0}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/jarlarge.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/grain1",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/grains/{grain1}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/jarlarge.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/grain2",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/grains/{grain2}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  },
+  {
+    "file": "foodshelves:blocktypes/glassware/jarlarge.json",
+    "op": "addmerge",
+    "path": "/attributes/variantTextures/grain3",
+    "side": "server",
+    "value": [
+      "liceworld:item/resource/grains/{grain3}"
+    ],
+    "dependsOn": [
+      {
+        "modid": "liceworld"
+      }
+    ]
+  }
+]

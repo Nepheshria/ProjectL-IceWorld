@@ -1,0 +1,21 @@
+{
+  "game:tabname-liceworld": "ProjectL Iceworld",
+  "liceworld:item-seeds-cavewheat": "Cave wheat seeds",
+  "liceworld:item-dough-cavewheat": "Cave wheat dough",
+  "liceworld:item-grain-cavewheat": "Cave wheat grain",
+  "liceworld:item-flour-cavewheat": "Cave wheat flour",
+  "liceworld:item-bread-cavewheat-partbaked": "Cave bread (part-baked)",
+  "liceworld:item-bread-cavewheat-perfect": "Cave bread",
+  "liceworld:item-bread-cavewheat-charred": "Cave bread (charred)",
+  "liceworld:block-crop-cavewheat-1": "Cave wheat",
+  "liceworld:block-crop-cavewheat-2": "Cave wheat",
+  "liceworld:block-crop-cavewheat-3": "Cave wheat",
+  "liceworld:block-crop-cavewheat-4": "Cave wheat",
+  "liceworld:block-crop-cavewheat-5": "Cave wheat",
+  "liceworld:block-crop-cavewheat-6": "Cave wheat",
+  "liceworld:block-crop-cavewheat-7": "Cave wheat",
+  "liceworld:block-crop-cavewheat-8": "Cave wheat",
+  "liceworld:block-crop-cavewheat-9": "Cave wheat",
+  "liceworld:incontainer-item-ciderportion-cavewheat": "Cave ale",
+  "liceworld:incontainer-item-spiritportion-cavewheat": "Cave whiskey"
+}

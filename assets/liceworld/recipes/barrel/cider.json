@@ -1,0 +1,23 @@
+[
+  {
+    "code": "cavewheat",
+    "sealHours": 336,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "litres": 1
+      },
+      {
+        "type": "item",
+        "code": "liceworld:item-flour-cavewheat",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "liceworld:liquid-ciderportion-spelt",
+      "litres": 0.2
+    }
+  }
+]
