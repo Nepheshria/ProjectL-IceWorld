@@ -12,6 +12,12 @@
   "matterState": "liquid",
   "attributes": {
     "handbook": {
+      "extraSections": [
+        {
+          "title": "liceworld:cider-handbook-help-title",
+          "text": "liceworld:cider-handbook-help-text"
+        }
+      ],
       "ignoreCreativeInvStacks": true,
       "groupBy": [
         "ciderportion-*"

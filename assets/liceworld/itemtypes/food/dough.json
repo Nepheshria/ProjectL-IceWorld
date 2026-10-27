@@ -7,8 +7,8 @@
     "handbook": {
       "extraSections": [
         {
-          "title": "game:bread-handbook-help-title",
-          "text": "game:bread-handbook-help-text"
+          "title": "liceworld:dough-handbook-help-title",
+          "text": "liceworld:dough-handbook-help-text"
         }
       ],
       "groupBy": [

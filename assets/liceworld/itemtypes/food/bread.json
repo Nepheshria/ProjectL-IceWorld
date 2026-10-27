@@ -82,8 +82,8 @@
       ],
       "extraSections": [
         {
-          "title": "bread-handbook-help-title",
-          "text": "bread-handbook-help-text"
+          "title": "liceworld:bread-handbook-help-title",
+          "text": "liceworld:bread-handbook-help-text"
         }
       ]
     },

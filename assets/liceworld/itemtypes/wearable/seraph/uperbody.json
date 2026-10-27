@@ -1,0 +1,144 @@
+  {
+    "code": "clothes",
+    "variantgroups": [
+      {
+        "code": "category",
+        "states": [
+          "upperbody"
+        ]
+      },
+      {
+        "code": "upperbody",
+        "combine": "SelectiveMultiply",
+        "onVariant": "category",
+        "states": [
+          "arctic-longsleeve"
+        ]
+      }
+    ],
+    "storageFlags": 128,
+    "behaviors": [
+      {
+        "name": "Wearable"
+      }
+    ],
+    "attributes": {
+      "clothescategory": "upperbody",
+      "wearableAttachment": true,
+      "isFoldable": true,
+      "displayable": {
+        "shelf": {
+          "behavior": "Stacking",
+          "category": "wearable-tops",
+          "shape": {
+            "base": "entity/humanoid/seraph/clothing/upperbody-folded"
+          },
+          "size": {
+            "width": 11,
+            "height": 1.5,
+            "length": 7
+          }
+        }
+      }
+    },
+    "attributesByType": {
+      "*-arctic-longsleeve": {
+        "warmth": 4.5
+      },
+      "*": {
+        "warmth": 2
+      }
+    },
+    "shapeByType": {
+      "*-arctic-longsleeve": {
+        "base": "liceworld:entity/humanoid/seraph/clothing/upperbody/arctic-longsleeve"
+      },
+      "*": {
+        "base": "game:entity/humanoid/seraph/clothing/upperbody/longsleeve"
+      }
+    },
+    "texturesByType": {
+      "*": {
+        "seraph": {
+          "base": "game:block/transparent"
+        },
+        "shirt": {
+          "base": "liceworld:entity/humanoid/seraphclothes/upperbody/{upperbody}"
+        },
+        "uover": {
+          "base": "liceworld:entity/humanoid/seraphclothes/upperbody/{upperbody}"
+        }
+      }
+    },
+    "creativeinventory": {
+      "general": [
+        "*"
+      ],
+      "items": [
+        "*"
+      ],
+      "clothing": [
+        "*"
+      ],
+      "liceworld": [
+        "*"
+      ]
+    },
+    "handbook": {
+      "include": true,
+      "extraSections": [
+        {
+          "title": "liceworld:arcticsuit-handbook-help-title",
+          "text": "liceworld:arcticsuit-handbook-help-text"
+        }
+      ],
+      "groupby": "liceworld:item-*-*-arctic-*"
+    },
+    "renderAlphaTest": 0.25,
+    "tpHandTransform": {
+      "translation": {
+        "x": -0.3,
+        "y": -0.9,
+        "z": -0.7
+      },
+      "rotation": {
+        "x": -71,
+        "y": 180,
+        "z": 83
+      },
+      "scale": 0.55
+    },
+    "guiTransformByType": {
+      "*": {
+        "rotation": {
+          "x": -178,
+          "y": -65,
+          "z": 10
+        },
+        "origin": {
+          "x": 0.43,
+          "y": 1.1,
+          "z": 0.5
+        },
+        "scale": 1.69
+      }
+    },
+    "groundTransform": {
+      "translation": {
+        "x": 0.05,
+        "y": 0.05,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -87
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5299
+      },
+      "scale": 4
+    }
+  }

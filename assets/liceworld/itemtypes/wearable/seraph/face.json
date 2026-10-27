@@ -1,0 +1,145 @@
+{
+  "code": "clothes",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "face"
+      ]
+    },
+    {
+      "code": "face",
+      "states": [
+        "arctic-hood"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "*-arctic-hood": {
+      "base": "liceworld:entity/humanoid/seraph/clothing/face/fullmask"
+    },
+    "*": {
+      "base": "game:entity/humanoid/villageraccessories/face/{face}"
+    }
+  },
+  "storageFlags": 128,
+  "behaviors": [
+    {
+      "name": "Wearable"
+    }
+  ],
+  "attributes": {
+    "clothescategory": "face",
+    "wearableAttachment": true,
+    "warmth": 3.25
+  },
+  "attributesByType": {
+    "*-arctic-hood": {
+      "eyeprotective": true,
+      "disableElements": [
+        "hidefacialhair"
+      ]
+    }
+  },
+  "texturesByType": {
+    "*-arctic-hood": {
+      "facetex": {
+        "base": "liceworld:entity/humanoid/seraphclothes/face/arctic-hood"
+      },
+      "seraph": {
+        "base": "game:block/transparent"
+      }
+    },
+    "*": {
+      "seraph": {
+        "base": "game:block/transparent"
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "clothing": [
+      "*"
+    ],
+    "liceworld": [
+      "*"
+    ]
+  },
+  "handbook": {
+    "include": true,
+    "extraSections": [
+      {
+        "title": "liceworld:arcticsuit-handbook-help-title",
+        "text": "liceworld:arcticsuit-handbook-help-text"
+      }
+    ],
+    "groupby": "liceworld:item-*-*-arctic-*"
+  },
+  "renderAlphaTest": 0.25,
+  "guiTransformByType": {
+    "*-arctic-hood": {
+      "rotation": {
+        "x": 1,
+        "y": -121,
+        "z": -167
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 1.65,
+        "z": 0.5
+      },
+      "scale": 2.7
+    },
+    "*": {
+      "rotation": {
+        "x": 1,
+        "y": -121,
+        "z": -167
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 1.62,
+        "z": 0.5
+      },
+      "scale": 3.23
+    }
+  },
+  "tpHandTransformByType": {
+    "*": {
+      "translation": {
+        "x": -0.8,
+        "y": -2.7,
+        "z": -0.9
+      },
+      "rotation": {
+        "x": 51,
+        "y": 149,
+        "z": 42
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 1.5,
+        "z": 0.5
+      },
+      "scale": 0.55
+    }
+  },
+  "groundTransform": {
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 1.5,
+      "z": 0.5299
+    },
+    "scale": 2.58
+  }
+}

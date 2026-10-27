@@ -36,6 +36,12 @@
       "scale": 0.89
     },
     "handbook": {
+      "extraSections": [
+        {
+          "title": "liceworld:flour-handbook-help-title",
+          "text": "liceworld:flour-handbook-help-text"
+        }
+      ],
       "groupBy": [
         "flour-*"
       ]

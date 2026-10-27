@@ -12,6 +12,12 @@
   "matterState": "liquid",
   "attributes": {
     "handbook": {
+      "extraSections": [
+        {
+          "title": "liceworld:spirit-handbook-help-title",
+          "text": "liceworld:spirit-handbook-help-text"
+        }
+      ],
       "ignoreCreativeInvStacks": true,
       "groupBy": [
         "spiritportion-*"

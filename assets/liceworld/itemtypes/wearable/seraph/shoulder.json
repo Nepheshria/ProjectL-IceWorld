@@ -1,0 +1,156 @@
+{
+  "code": "clothes",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "shoulder"
+      ]
+    },
+    {
+      "code": "shoulder",
+      "combine": "SelectiveMultiply",
+      "onVariant": "category",
+      "states": [
+        "arctic-coat"
+      ]
+    }
+  ],
+  "behaviors": [
+    {
+      "name": "Wearable"
+    }
+  ],
+  "attributes": {
+    "wearableAttachment": true,
+    "clothescategory": "shoulder",
+    "disableElementsByType": {
+      "*-arctic-coat": [
+        "ponytailhigh",
+        "hair-uncovered",
+        "sidehigh",
+        "sidelow",
+        "bangs"
+      ]
+    },
+    "keepElementsByType": {
+      "*-arctic-coat": [
+        "hair-covered",
+        "hoodtight"
+      ]
+    },
+    "warmthByType": {
+      "*-arctic-coat": 4,
+      "*": 1
+    },
+    "rainProtectionPercByType": {
+      "*-arctic-coat": 1.0
+    }
+  },
+  "storageFlags": 128,
+  "shapeByType": {
+    "*-arctic-coat": {
+      "base": "liceworld:entity/humanoid/seraph/clothing/shoulder/arctic-coat",
+      "overlays": [
+        {
+          "base": "liceworld:entity/humanoid/seraph/clothing/shoulder/arctic-coat-overlay"
+        }
+      ]
+    },
+    "*": {
+      "base": "liceworld:entity/humanoid/seraph/clothing/shoulder/{shoulder}"
+    }
+  },
+  "texturesByType": {
+    "*": {
+      "seraph": {
+        "base": "game:block/transparent"
+      },
+      "shouldertexture": {
+        "base": "liceworld:entity/humanoid/seraphclothes/shoulder/{shoulder}"
+      },
+      "cloth": {
+        "base": "liceworld:entity/humanoid/seraphclothes/shoulder/{shoulder}"
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "clothing": [
+      "*"
+    ],
+    "liceworld": [
+      "*"
+    ]
+  },
+  "handbook": {
+    "include": true,
+    "extraSections": [
+      {
+        "title": "liceworld:arcticsuit-handbook-help-title",
+        "text": "liceworld:arcticsuit-handbook-help-text"
+      }
+    ],
+    "groupby": "liceworld:item-*-*-arctic-*"
+  },
+  "renderAlphaTest": 0.25,
+  "tpHandTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": -0.7,
+        "z": -0.7
+      },
+      "rotation": {
+        "x": -81,
+        "y": 180,
+        "z": 91
+      },
+      "scale": 0.59
+    }
+  },
+  "guiTransformByType": {
+    "*": {
+      "rotate": false,
+      "translation": {
+        "x": 2,
+        "y": 0,
+        "z": 17
+      },
+      "rotation": {
+        "x": -178,
+        "y": -65,
+        "z": 10
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 1.4,
+        "z": 0.5
+      },
+      "scale": 2.2
+    }
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0.05,
+      "y": 0.1,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": -87
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5299
+    },
+    "scale": 2.19
+  }
+}

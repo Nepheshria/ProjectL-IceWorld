@@ -1,0 +1,132 @@
+{
+  "code": "clothes",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "hand"
+      ]
+    },
+    {
+      "code": "hand",
+      "combine": "SelectiveMultiply",
+      "onVariant": "category",
+      "states": [
+        "arctic-gloves"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "*-arctic-gloves": {
+      "base": "liceworld:entity/humanoid/seraph/clothing/hand/arctic-gloves"
+    },
+    "*": {
+      "base": "game:entity/humanoid/seraph/clothing/hand/gloves4816"
+    }
+  },
+  "storageFlags": 128,
+  "behaviors": [
+    {
+      "name": "Wearable"
+    }
+  ],
+  "attributes": {
+    "clothescategory": "hand",
+    "wearableAttachment": true
+  },
+  "attributesByType": {
+    "*-arctic-gloves": {
+      "warmth": 2.5
+    },
+    "*": {
+      "warmth": 0.5
+    }
+  },
+  "texturesByType": {
+    "*": {
+      "seraph": {
+        "base": "game:block/transparent"
+      },
+      "gloves": {
+        "base": "liceworld:entity/humanoid/seraphclothes/hand/{hand}"
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "clothing": [
+      "*"
+    ],
+    "liceworld": [
+      "*"
+    ]
+  },
+  "handbook": {
+    "include": true,
+    "extraSections": [
+      {
+        "title": "liceworld:arcticsuit-handbook-help-title",
+        "text": "liceworld:arcticsuit-handbook-help-text"
+      }
+    ],
+    "groupby": "liceworld:item-*-*-arctic-*"
+  },
+  "renderAlphaTest": 0.25,
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.9,
+      "y": -1,
+      "z": -1
+    },
+    "rotation": {
+      "x": -13,
+      "y": -64,
+      "z": 49
+    },
+    "scale": 0.55
+  },
+  "guiTransformByType": {
+    "*": {
+      "rotate": false,
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 19
+      },
+      "rotation": {
+        "x": 174,
+        "y": -30,
+        "z": 23
+      },
+      "origin": {
+        "x": 0.52,
+        "y": 0.78,
+        "z": 0.5
+      },
+      "scale": 2.5
+    }
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.05,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 90
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5299
+    },
+    "scale": 5
+  }
+}

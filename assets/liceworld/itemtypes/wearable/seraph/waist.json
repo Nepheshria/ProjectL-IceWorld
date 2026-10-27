@@ -1,0 +1,119 @@
+{
+  "code": "clothes",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "waist"
+      ]
+    },
+    {
+      "code": "waist",
+      "combine": "SelectiveMultiply",
+      "onVariant": "category",
+      "states": [
+        "arctic-belt"
+      ]
+    }
+  ],
+  "shape": {
+    "base": "liceworld:entity/humanoid/seraph/clothing/waist/{waist}"
+  },
+  "texturesByType": {
+    "*": {
+      "seraph": {
+        "base": "game:block/transparent"
+      }
+    }
+  },
+  "storageFlags": 128,
+  "behaviors": [
+    {
+      "name": "Wearable"
+    }
+  ],
+  "attributes": {
+    "wearableAttachment": true,
+    "clothescategory": "waist",
+    "warmthByType": {
+      "*-arctic-belt": 1.5,
+      "*": 0.0
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "clothing": [
+      "*"
+    ],
+    "liceworld": [
+      "*"
+    ]
+  },
+  "handbook": {
+    "include": true,
+    "extraSections": [
+      {
+        "title": "liceworld:arcticsuit-handbook-help-title",
+        "text": "liceworld:arcticsuit-handbook-help-text"
+      }
+    ],
+    "groupby": "liceworld:item-*-*-arctic-*"
+  },
+  "renderAlphaTest": 0.25,
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.78,
+      "y": -0.93,
+      "z": -1.23
+    },
+    "rotation": {
+      "x": 35,
+      "y": -90,
+      "z": 49
+    },
+    "scale": 0.67
+  },
+  "guiTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 19
+      },
+      "rotation": {
+        "x": 174,
+        "y": -45,
+        "z": 23
+      },
+      "origin": {
+        "x": 0.4,
+        "y": 1.1,
+        "z": 0.4
+      },
+      "scale": 2.85
+    }
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0.05,
+      "y": -0.21,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5299
+    },
+    "scale": 2.72
+  }
+}

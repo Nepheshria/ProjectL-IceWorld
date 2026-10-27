@@ -62,6 +62,18 @@
       "*"
     ]
   },
+  "handbook": {
+    "include": true,
+    "extraSections": [
+      {
+        "title": "liceworld:seeds-handbook-help-title",
+        "text": "liceworld:seeds-handbook-help-text"
+      }
+    ],
+    "groupBy": [
+      "seeds-*"
+    ]
+  },
   "storageFlags": 33,
   "materialDensity": 450,
   "guiTransform": {

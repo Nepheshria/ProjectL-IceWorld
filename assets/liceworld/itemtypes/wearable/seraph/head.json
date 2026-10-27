@@ -1,0 +1,197 @@
+{
+  "code": "clothes",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "head"
+      ]
+    },
+    {
+      "code": "head",
+      "states": [
+        "arctic-coif"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "*": {
+      "base": "liceworld:entity/humanoid/seraph/clothing/head/{head}"
+    }
+  },
+  "storageFlags": 128,
+  "behaviors": [
+    {
+      "name": "Wearable"
+    }
+  ],
+  "attributes": {
+    "clothescategory": "head",
+    "wearableAttachment": true,
+    "rainProtectionPercByType": {
+      "*-arctic-coif": 1.0
+    }
+  },
+  "attributesByType": {
+    "*-arctic-coif": {
+      "disableElements": [
+        "Hair tile upper part",
+        "ponytailhigh",
+        "ponytaillow",
+        "hair-uncovered",
+        "sidehigh",
+        "sidelow",
+        "hoodshoulder",
+        "hoodupperover"
+      ],
+      "keepElements": [
+        "hair-covered",
+        "hoodtight"
+      ],
+      "warmth": 2.0
+    },
+    "*": {
+      "disableElements": [
+        "ponytailhigh",
+        "hair-uncovered",
+        "sidehigh",
+        "sidelow",
+        "bangs",
+        "hoodshoulder",
+        "hoodupperover"
+      ],
+      "keepElements": [
+        "hair-covered",
+        "hoodtight"
+      ],
+      "warmth": 1
+    }
+  },
+  "texturesByType": {
+    "*": {
+      "seraph": {
+        "base": "game:block/transparent"
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "clothing": [
+      "*"
+    ],
+    "liceworld": [
+      "*"
+    ]
+  },
+  "handbook": {
+    "include": true,
+    "extraSections": [
+      {
+        "title": "liceworld:arcticsuit-handbook-help-title",
+        "text": "liceworld:arcticsuit-handbook-help-text"
+      }
+    ],
+    "groupby": "liceworld:item-*-*-arctic-*"
+  },
+  "tpHandTransformByType": {
+    "*": {
+      "translation": {
+        "x": -0.97,
+        "y": -3,
+        "z": -1
+      },
+      "rotation": {
+        "x": -13,
+        "y": -80,
+        "z": 12
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 1.5,
+        "z": 0.5
+      },
+      "scale": 0.55
+    }
+  },
+  "guiTransformByType": {
+    "*-arctic-coif": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 174,
+        "y": -42,
+        "z": 17
+      },
+      "origin": {
+        "x": 0.8,
+        "y": 1.6,
+        "z": 0.9
+      },
+      "scale": 2.17
+    },
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 19
+      },
+      "rotation": {
+        "x": 174,
+        "y": -45,
+        "z": 23
+      },
+      "origin": {
+        "x": 0.52,
+        "y": 1.6,
+        "z": 0.5
+      },
+      "scale": 1.99
+    }
+  },
+  "groundTransformByType": {
+    "*-arctic-coif": {
+      "translation": {
+        "x": 0.05,
+        "y": -0.78,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -3
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5299
+      },
+      "scale": 4
+    },
+    "*": {
+      "translation": {
+        "x": 0.05,
+        "y": -1.1,
+        "z": 0
+      },
+      "rotation": {
+        "x": -2,
+        "y": 0,
+        "z": -4
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5299
+      },
+      "scale": 4
+    }
+  }
+}

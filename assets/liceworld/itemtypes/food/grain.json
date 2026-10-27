@@ -41,6 +41,12 @@
       "{type}"
     ],
     "handbook": {
+      "extraSections": [
+        {
+          "title": "liceworld:grain-handbook-help-title",
+          "text": "liceworld:grain-handbook-help-text"
+        }
+      ],
       "groupBy": [
         "grain-*"
       ]

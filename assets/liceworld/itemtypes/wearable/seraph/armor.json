@@ -1,0 +1,372 @@
+{
+  "code": "armor",
+  "heldTpIdleAnimation": "holdunderarm",
+  "variantgroups": [
+    {
+      "code": "bodypart",
+      "states": [
+        "head",
+        "body",
+        "legs"
+      ]
+    },
+    {
+      "code": "construction",
+      "states": [
+        "arctic"
+      ]
+    },
+    {
+      "code": "color",
+      "states": [
+        "blue",
+        "green",
+        "orange",
+        "purple",
+        "red",
+        "yellow"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "armor-*-arctic-*": {
+      "base": "liceworld:entity/humanoid/seraph/armor/arctic/{bodypart}"
+    },
+    "armor-*": {
+      "base": "game:entity/humanoid/seraph/armor/{construction}/{bodypart}"
+    }
+  },
+  "texturesByType": {
+    "*-arctic-*": {
+      "seraph": {
+        "base": "game:block/transparent"
+      },
+      "material": {
+        "baseByType": {
+          "*": "liceworld:entity/humanoid/serapharmor/sewn/arctic-{color}"
+        }
+      }
+    },
+    "*": {
+      "seraph": {
+        "base": "game:block/transparent"
+      },
+      "material": {
+        "baseByType": {
+          "*": "liceworld:entity/humanoid/serapharmor/{construction}/{material}"
+        }
+      }
+    }
+  },
+  "storageFlags": 128,
+  "behaviors": [
+    {
+      "name": "Wearable"
+    }
+  ],
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "armor-{bodypart}-{construction}-*"
+      ]
+    },
+    "visibleDamageEffect": true,
+    "clothesCategoryByType": {
+      "armor-head-*": "armorhead",
+      "armor-body-*": "armorbody",
+      "armor-legs-*": "armorlegs"
+    },
+    "warmthByType": {
+      "armor-head-arctic-*": 15,
+      "armor-body-arctic-*": 25,
+      "armor-legs-arctic-*": 20
+    },
+    "attachableToEntity": {
+      "texturePrefixCode": "armor-{bodypart}-{construction}-{color}",
+      "categoryCodeByType": {
+        "armor-head-*": "armorhead",
+        "armor-body-*": "armorbody",
+        "armor-legs-*": "armorlegs"
+      },
+      "disableElementsByType": {
+        "armor-head-arctic-*": [
+          "hidehat",
+          "ponytailhigh",
+          "hair-uncovered",
+          "sidehigh",
+          "sidelow",
+          "bangs"
+        ],
+        "armor-head-*": [
+          "hidehat",
+          "Hair tile upper part",
+          "ponytailhigh",
+          "ponytaillow",
+          "hair-uncovered",
+          "sidehigh",
+          "sidelow",
+          "bangs"
+        ],
+        "armor-body-*": [
+          "Waist",
+          "hideupperarm",
+          "hidelowerarm",
+          "mittenfrill-l",
+          "mittenfrill-r",
+          "glovefrill-l",
+          "glovefrill-r",
+          "ShirtFrontTile",
+          "ShirtBackTile",
+          "coatFrontTile",
+          "coatBackTile",
+          "shouldertextureFrontTile",
+          "shouldertextureBackTile"
+        ],
+        "armor-legs-*": [
+          "hideshoeL",
+          "hideshoeR",
+          "shoefluffL",
+          "shoefluffR"
+        ]
+      },
+      "keepElementsByType": {
+        "armor-head-*": [
+          "hair-covered"
+        ]
+      }
+    },
+    "defaultProtLoss": {
+      "perTierRelativeProtectionLoss": [
+        0.03,
+        0.15
+      ],
+      "perTierFlatDamageReductionLoss": [
+        0.1,
+        0.2
+      ]
+    },
+    "footStepSoundByType": {
+      "armor-body-arctic-*": "wearable/leather*"
+    },
+    "protectionModifiersByType": {
+      "armor-*-arctic-*": {
+        "relativeProtection": 0.7,
+        "flatDamageReduction": 0.7,
+        "protectionTier": 1,
+        "perTierRelativeProtectionLoss": [
+          0.015,
+          0.075
+        ],
+        "perTierFlatDamageReductionLoss": [
+          0.05,
+          0.1
+        ]
+      }
+    },
+    "statModifiersByType": {
+      "armor-*-arctic-*": {
+        "rangedWeaponsAcc": -0.04,
+        "rangedWeaponsSpeed": -0.04,
+        "walkSpeed": -0.04,
+        "healingeffectivness": -0.1,
+        "hungerrate": 0.01
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "clothing": [
+      "*"
+    ],
+    "liceworld": [
+      "*"
+    ]
+  },
+  "handbook": {
+    "include": true,
+    "extraSections": [
+      {
+        "title": "liceworld:arcticsuit-handbook-help-title",
+        "text": "liceworld:arcticsuit-handbook-help-text"
+      }
+    ],
+    "groupby": "liceworld:item-*-*-arctic-*"
+  },
+  "renderAlphaTest": 0.25,
+  "durabilityByType": {
+    "armor-*-arctic-*-linen": 1500
+  },
+  "tpHandTransformByType": {
+    "armor-head-*": {
+      "translation": {
+        "x": -0.82,
+        "y": -2.2,
+        "z": -0.5
+      },
+      "rotation": {
+        "x": 18,
+        "y": 169,
+        "z": 30
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 1.7,
+        "z": 0.5
+      },
+      "scale": 0.64
+    },
+    "armor-body-*": {
+      "translation": {
+        "x": -1,
+        "y": -1.9,
+        "z": -0.5
+      },
+      "rotation": {
+        "x": 97,
+        "y": -168,
+        "z": 94
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 1.5,
+        "z": 0.5
+      },
+      "scale": 0.67
+    },
+    "armor-legs-*": {
+      "translation": {
+        "x": -0.7,
+        "y": -0.6,
+        "z": -0.4
+      },
+      "rotation": {
+        "x": 95,
+        "y": -20,
+        "z": -91
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.7,
+        "z": 0.5
+      },
+      "scale": 0.74
+    }
+  },
+  "guiTransformByType": {
+    "armor-head-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -26,
+        "y": -46,
+        "z": -180
+      },
+      "origin": {
+        "x": 0.6,
+        "y": 1.72,
+        "z": 0.5
+      },
+      "scale": 2
+    },
+    "armor-body-*": {
+      "translation": {
+        "x": 3,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -26,
+        "y": -46,
+        "z": -180
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 1.11,
+        "z": 0.5
+      },
+      "scale": 1.37
+    },
+    "armor-legs-*": {
+      "translation": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -26,
+        "y": -46,
+        "z": -180
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.6,
+        "z": 0.5
+      },
+      "scale": 1.25
+    }
+  },
+  "groundTransformByType": {
+    "armor-head-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.34,
+        "y": 1.71,
+        "z": 0.5
+      },
+      "scale": 3.1
+    },
+    "armor-body-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.34,
+        "y": 1.12,
+        "z": 0.5
+      },
+      "scale": 3.1
+    },
+    "armor-legs-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.34,
+        "y": 1.12,
+        "z": 0.5
+      },
+      "scale": 3.1
+    }
+  }
+}

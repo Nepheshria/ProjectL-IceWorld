@@ -1,0 +1,142 @@
+{
+  "code": "clothes",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "arm"
+      ]
+    },
+    {
+      "code": "arm",
+      "states": [
+        "arctic-bracers"
+      ]
+    }
+  ],
+  "storageFlags": 128,
+  "behaviors": [
+    {
+      "name": "Wearable"
+    }
+  ],
+  "handbook": {
+    "include": true,
+    "extraSections": [
+      {
+        "title": "liceworld:arcticsuit-handbook-help-title",
+        "text": "liceworld:arcticsuit-handbook-help-text"
+      }
+    ],
+    "groupby": "liceworld:item-*-*-arctic-*"
+  },
+  "attributes": {
+    "clothescategory": "arm",
+    "wearableAttachment": true
+  },
+  "warmthByType": {
+    "*-arctic-bracers": 1,
+    "*": 0
+  },
+  "shape": {
+    "base": "liceworld:entity/humanoid/seraph/clothing/arm/{arm}"
+  },
+  "texturesByType": {
+    "*": {
+      "seraph": {
+        "base": "game:block/transparent"
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "clothing": [
+      "*"
+    ],
+    "liceworld": [
+      "*"
+    ]
+  },
+  "renderAlphaTest": 0.25,
+  "tpHandTransformByType": {
+    "*": {
+      "translation": {
+        "x": -1.6,
+        "y": -1.2,
+        "z": -0.9
+      },
+      "rotation": {
+        "x": -13,
+        "y": -64,
+        "z": 49
+      },
+      "scale": 0.55
+    }
+  },
+  "guiTransformByType": {
+    "*-arctic-bracers": {
+      "rotation": {
+        "x": 174,
+        "y": -49,
+        "z": 23
+      },
+      "origin": {
+        "x": 0.65,
+        "y": 0.8,
+        "z": 0.9
+      },
+      "scale": 4.2
+    },
+    "*": {
+      "rotation": {
+        "x": 174,
+        "y": -49,
+        "z": 23
+      },
+      "origin": {
+        "x": 0.42,
+        "y": 0.9,
+        "z": 0.7
+      },
+      "scale": 4.71
+    }
+  },
+  "groundTransformByType": {
+    "*-arctic-bracers": {
+      "translation": {
+        "x": 0.05,
+        "y": -0.18,
+        "z": 0
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5299
+      },
+      "scale": 4
+    },
+    "*": {
+      "translation": {
+        "x": 0.05,
+        "y": -0.18,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 4
+    }
+  }
+}

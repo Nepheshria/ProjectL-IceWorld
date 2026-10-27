@@ -62,7 +62,16 @@
     "sitHeight": 0.55,
     "tickGrowthProbability": 0.05,
     "handbook": {
-      "include": true
+      "include": true,
+      "extraSections": [
+        {
+          "title": "liceworld:cavewheat-handbook-help-title",
+          "text": "liceworld:cavewheat-handbook-help-text"
+        }
+      ],
+      "groupBy": [
+        "cavewheat-*"
+      ]
     }
   },
   "sideopaque": {
