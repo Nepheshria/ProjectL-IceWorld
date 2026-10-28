@@ -95,7 +95,8 @@
         "type": "item",
         "code": "seeds-cavewheat",
         "quantity": {
-          "avg": 1.2
+          "avg": 1.5,
+          "var": 0.5
         }
       },
       {
