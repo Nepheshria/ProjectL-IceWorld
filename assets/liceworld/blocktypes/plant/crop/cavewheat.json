@@ -123,7 +123,7 @@
     "nutrientConsumption": 5,
     "growthStages": 9,
     "totalGrowthMonths": 1.0,
-    "heatDamageAbove": 15,
+    "heatDamageAbove": 16,
     "coldDamageBelow": 5
   },
   "collisionbox": null,
