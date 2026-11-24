@@ -6,7 +6,8 @@
       {
         "type": "item",
         "code": "game:waterportion",
-        "litres": 1
+        "litres": 1,
+        "consumeLitres": 1
       },
       {
         "type": "item",
@@ -16,7 +17,7 @@
     ],
     "output": {
       "type": "item",
-      "code": "liceworld:liquid-ciderportion-spelt",
+      "code": "liceworld:liquid-ciderportion-cavewheat",
       "litres": 0.2
     }
   }

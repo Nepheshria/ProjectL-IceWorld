@@ -30,6 +30,13 @@
           "code": "liceworld:spiritportion-cavewheat"
         },
         "ratio": 0.05
+      },
+      "ciderportion-*": {
+        "distilledStack": {
+          "type": "item",
+          "code": "liceworld:spiritportion-cavewheat"
+        },
+        "ratio": 0.05
       }
     },
     "waterTightContainerProps": {
@@ -65,7 +72,7 @@
   },
   "texturebytype": {
     "*-cavewheat": {
-      "base": "block/food/pie/fill-cavewheat",
+      "base": "liceworld:block/food/pie/fill-cavewheat",
       "alpha": 180
     }
   },
